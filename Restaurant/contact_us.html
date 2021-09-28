@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8"> 
+
+    <header>
+        <title>Contact Us</title> 
+    </header>
+
+    <style>
+        h2 
+        {
+            background-color : gold;  
+            color : black;
+        }
+
+        .center 
+        {
+            display : flex; 
+            align-items: center; 
+            justify-content : center;
+        }
+
+         
+        #home 
+        {
+            background-color : goldenrod;
+            color : black;
+        }
+
+        #soups 
+        {
+            background-color : goldenrod;
+            color : black;
+        } 
+
+        #main_entry 
+        {
+            background-color : goldenrod;
+            color : black;
+        } 
+
+        #drinks 
+        {
+            background-color : goldenrod;
+            color : black;
+        }
+
+        #dessert 
+        {
+            background-color : goldenrod;
+            color : black;
+        } 
+
+        #contact_us 
+        {
+            background-color : goldenrod;
+            color : black;
+        }
+
+        body 
+        {
+            background-color : rgb(146,99,156);
+        }
+    </style> 
+
+    <body>
+        <h2><strong>FILL OUT THE FORM BELOW OR CONTACT US AT 444-5555 TO SET UP AN ORDER!</strong></h2>
+        <nav class="center">
+            <a id="home" href="home.html" style="font-size: 30px"><strong>Home</strong></a> &nbsp;
+            <a id="soups" href="soups.html" style="font-size: 30px"><strong>Soups</strong></a> &nbsp;
+            <a id="main_entry" href="main_entry.html" style="font-size: 30px"><strong>Main Entry</strong></a>&nbsp; 
+            <a id="drinks" href="drinks.html" style="font-size: 30px"><strong>Drinks</strong></a> &nbsp;
+            <a id="dessert" href="dessert.html" style="font-size: 30px"><strong>Dessert</strong></a> &nbsp;
+            <a id="contact_us" href="contact_us.html" style="font-size: 30px"><strong>Contact Us</strong></a> &nbsp;
+        </nav>
+
+        <form>
+            <label for="firstName"><strong>First Name:</strong></label> 
+            <input type="text" id="firstName" name="firstName" placeholder="Enter First Name:"> 
+        </form> 
+
+        <form> 
+            <label for="lastName"><strong>Last Name:</strong></label> 
+            <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name:">
+        </form> 
+
+        <form>
+            <label for="phone"><strong>Phone Number:</strong></label> 
+            <input type="text" id="phone" name="phone" placeholder="(xxx)-xxx-xxxx">
+        </form>  
+
+        <form>
+            <label for="email"><strong>Email:</strong></label> 
+            <input type="text" id="email" name="email" placeholder="Enter Email:">
+        </form> 
+
+
+        <h3>
+            Are you interested in our news letter?
+        </h3>
+        <form>
+            <label for="yes"><strong>Yes</strong></label> 
+            <input type="radio" id="yes" name="action" >
+
+            <label for="no"><strong>No</strong></label> 
+            <input type="radio" id="no" name="action">
+        </form>  
+
+        <h3>Please leave a review if possible (Optional)</h3> 
+
+        <label for="output"></label> 
+
+        <textarea id="output" name="output" rows="15" cols="50" placeholder="Place your review here...."></textarea> 
+        
+        <footer>
+            <input type="submit" value="Submit">
+        </footer> 
+
+        <footer>
+            Copyright &copy; 2021 Filipino Restaurant 
+        </footer>
+        
+    </body>
+
+    
+</html>
